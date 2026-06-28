@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ----------------------------------------------------
+# My Custom Rules for the Movie Trailer Project
+# ----------------------------------------------------
+
+# Ignore local secret files where keys might be stored
+.env
+secrets.py
+config.json
+
+# Optional: Ignore your output folder if the video file is too large for GitHub
+# output/
+
